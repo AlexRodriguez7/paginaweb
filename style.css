@@ -1,0 +1,223 @@
+/*ENCABEZADO*/
+
+.garden {
+    background-image: url(fondo1.jpg);
+    background-size: 2000px;
+    text-align: center;
+    border: solid 1px;
+    border-radius: 5px;
+    color:crimson;
+    padding: 50px;
+    height: 30px;
+    }
+.garden img {
+    width: 90px;
+    float: left;
+    border-radius: 00%;
+    top: 10px;
+}
+input {
+    width: 50%;
+}
+
+
+/*Barra de Navegacion*/
+ 
+
+a {
+        text-decoration: none;
+        
+  }
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    
+    }
+ 
+nav ul li {   
+    
+    background: salmon;
+    color: white;
+    padding: 10px 30px;
+    height: auto 100px;
+    border-radius: 20px;
+    }
+a:hover {
+    background-color: salmon;
+    cursor: pointer;
+    }
+
+
+
+
+    /*Thead*/
+
+#fondo {
+    padding: 10px;
+    border: solid 1px;
+    }
+#fondo {
+    height: 300px;
+    background-image: url(fondo1.jpg);
+    background-size: 2000px;
+    text-align: center;
+    padding: 90PX;
+    border: solid 1px;
+}
+
+
+header .lithops { 
+    width: 300px;float: left;
+    border-radius: 100%;
+    padding-left: 30px;
+    padding-top: 30px;
+    }
+p {
+    width: 70%;
+    float: right;
+}
+
+
+
+
+/* IMAGENES */
+
+section {
+    display: flex;
+    width: 1300px;
+    height: 530px;
+}
+section img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+section img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+
+
+
+/*TIENDA*/
+
+img {
+    max-width: 100%;
+}
+
+
+.container-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    
+}
+
+.item {
+    border-radius: 10px;
+    
+}
+
+.item:hover{
+    box-shadow: 0 10px 20px black ;
+}
+
+.info-product {
+    padding: 15px 30px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: 900;
+}
+.item img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    transition: all .5s;
+
+}
+.item figure {
+    overflow: hidden;
+}
+
+.item:hover img {
+    transform: scale(1.2);
+}
+
+.info-product {
+    border: none;
+    background: none;
+    background-color: black;
+    color: white;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+
+
+
+/*NOSOTROS*/
+
+
+section {
+    background-image: url(fondo1.jpg);
+    background-size: 1300px;
+    border: solid 1px black;
+    border-radius: 5px;
+    
+}
+
+h3 {
+    padding: 20px 50px 0px 50px;
+    color: ;
+}
+
+
+
+/*CUIDADOS*/
+
+table {
+    border-collapse: collapse;
+    border: solid 1px black;
+    background-color: aqua;
+}
+
+th,td {
+    border-style: ridge;
+}
+tbody, img {
+    width: 150px;
+    
+}
+tr>th {
+    background-color: darkgray;
+}
+caption {
+    background-color: aquamarine+;
+}
+
+
+
+/*CONTACTENOS*/
+
+img{
+    float: left;
+
+}
+img:hover{
+    cursor: pointer;
+}
+
+
